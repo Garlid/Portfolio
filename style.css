@@ -204,8 +204,8 @@ h2 {
 .project-card img {
   display: block;            /* makes margin auto work */
   margin: 0 auto 15px auto;  /* centers and adds space below */
-  max-width: 900px;          /* limit width so they're all the same size */
-  height: 800px;             /* fixed height */
+  max-width: 700px;          /* limit width so they're all the same size */
+  height: 500px;             /* fixed height */
   object-fit: cover;         /* crops evenly without distortion */
   border-radius: 6px;        /* optional: rounded corners */
   box-shadow: 0 3px 8px rgba(0,0,0,0.15); /* optional: soft shadow */
