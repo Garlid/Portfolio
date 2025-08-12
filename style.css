@@ -211,6 +211,14 @@ h2 {
   box-shadow: 0 3px 8px rgba(0,0,0,0.15); /* optional: soft shadow */
 }
 
+/* Responsive adjustment for smaller screens */
+@media (max-width: 600px) {
+  .project-card img {
+    max-width: 100%;
+    height: auto;  /* let height scale naturally */
+  }
+}
+
 /* Recommendations */
 
 .all_recommendations {
